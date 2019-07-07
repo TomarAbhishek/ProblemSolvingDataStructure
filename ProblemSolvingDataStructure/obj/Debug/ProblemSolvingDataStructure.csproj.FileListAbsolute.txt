@@ -1,0 +1,7 @@
+C:\Users\Abhishek Tomar\source\repos\ProblemSolvingDataStructure\ProblemSolvingDataStructure\bin\Debug\ProblemSolvingDataStructure.exe.config
+C:\Users\Abhishek Tomar\source\repos\ProblemSolvingDataStructure\ProblemSolvingDataStructure\bin\Debug\ProblemSolvingDataStructure.exe
+C:\Users\Abhishek Tomar\source\repos\ProblemSolvingDataStructure\ProblemSolvingDataStructure\bin\Debug\ProblemSolvingDataStructure.pdb
+C:\Users\Abhishek Tomar\source\repos\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.csprojAssemblyReference.cache
+C:\Users\Abhishek Tomar\source\repos\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Tomar\source\repos\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.exe
+C:\Users\Abhishek Tomar\source\repos\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.pdb
