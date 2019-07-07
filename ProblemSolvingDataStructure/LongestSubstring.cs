@@ -10,13 +10,13 @@ namespace ProblemSolvingDataStructure
 
     class LongestSubstring
     {
-        static void Main(string[] args)
+       /* static void Main(string[] args)
         {
             string str = Console.ReadLine();
             int maxLength = Solution1(str);
             Console.WriteLine(maxLength);
             Console.ReadLine();
-        }
+        }*/
 
         public static int Solution1(string str)
         {
