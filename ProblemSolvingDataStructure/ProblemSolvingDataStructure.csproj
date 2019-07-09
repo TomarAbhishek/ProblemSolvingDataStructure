@@ -46,6 +46,7 @@
     <Compile Include="LongestSubstring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SortByColour.cs" />
+    <Compile Include="WaveFormArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

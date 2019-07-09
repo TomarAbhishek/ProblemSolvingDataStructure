@@ -10,7 +10,7 @@ namespace ProblemSolvingDataStructure
     // N objects are given which can be of three colours - red,black,green.
     public class SortByColour
     {
-        public static void Main(string[] args)
+       /* public static void Main(string[] args)
         {
             string[] str = { "Red", "Black", "Green", "Black", "Green", "Red", "Black", "Green", "Black", "Green", "Red", "Black", "Green", "Black", "Green" };
 
@@ -18,7 +18,7 @@ namespace ProblemSolvingDataStructure
             foreach (var com in str)
                 Console.WriteLine(com);
             Console.ReadLine();
-        }
+        }*/
         public static void Solution1(string[] strArray)
         {
             int lo = 0;
