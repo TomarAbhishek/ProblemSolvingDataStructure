@@ -12,3 +12,10 @@ E:\Project\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\Pro
 E:\Project\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.csproj.CoreCompileInputs.cache
 E:\Project\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.exe
 E:\Project\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.pdb
+D:\Code Learning\ProblemSolvingDataStructure\ProblemSolvingDataStructure\bin\Debug\ProblemSolvingDataStructure.exe.config
+D:\Code Learning\ProblemSolvingDataStructure\ProblemSolvingDataStructure\bin\Debug\ProblemSolvingDataStructure.exe
+D:\Code Learning\ProblemSolvingDataStructure\ProblemSolvingDataStructure\bin\Debug\ProblemSolvingDataStructure.pdb
+D:\Code Learning\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.csproj.AssemblyReference.cache
+D:\Code Learning\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.csproj.CoreCompileInputs.cache
+D:\Code Learning\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.exe
+D:\Code Learning\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.pdb
