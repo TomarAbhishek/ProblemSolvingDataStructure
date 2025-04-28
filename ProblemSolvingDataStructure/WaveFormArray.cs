@@ -13,16 +13,16 @@ namespace ProblemSolvingDataStructure
 
     class WaveFormArray
     {
-        //public static void Main(string[] args)
-        //{
-        //    int[] array = { 1, 4, 3, 2, 8, 9, 10, 12, 15, 14, 33, 54, 21, 22, 6 };
-        //    Solution1(array);
-        //    foreach (int arr in array)
+        //    public static void Main(string[] args)
         //    {
-        //        Console.Write(arr + " ");
+        //        int[] array = { 1, 4, 3, 2, 8, 9, 10, 12, 15, 14, 33, 54, 21, 22, 6 };
+        //        Solution1(array);
+        //        foreach (int arr in array)
+        //        {
+        //            Console.Write(arr + " ");
+        //        }
+        //        Console.ReadLine();
         //    }
-        //    Console.ReadLine();
-        //}
         static void swap(int[] array, int i, int j)
         {
             int temp = array[i];
