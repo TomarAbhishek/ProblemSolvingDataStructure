@@ -19,7 +19,7 @@ namespace ProblemSolvingDataStructure
             ListNode l1 = new ListNode(1, l2);
 
             ListNode n = SwappingLinkedList.SwapPairs(l1);
-            //Console.WriteLine(n);
+            //Console.WriteLine(n); 
             Console.ReadLine();
 
             //ArrayList list = new ArrayList();
