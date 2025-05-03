@@ -18,3 +18,4 @@ D:\Code Learning\ProblemSolvingDataStructure\ProblemSolvingDataStructure\bin\Deb
 D:\Code Learning\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.csproj.CoreCompileInputs.cache
 D:\Code Learning\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.exe
 D:\Code Learning\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.pdb
+D:\Code Learning\ProblemSolvingDataStructure\ProblemSolvingDataStructure\obj\Debug\ProblemSolvingDataStructure.csproj.AssemblyReference.cache

@@ -51,6 +51,7 @@
     <Compile Include="MathProblems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SortByColour.cs" />
+    <Compile Include="StringToInteger.cs" />
     <Compile Include="SwappingLinkedList.cs" />
     <Compile Include="UnCrossedLine.cs" />
     <Compile Include="WaveFormArray.cs" />

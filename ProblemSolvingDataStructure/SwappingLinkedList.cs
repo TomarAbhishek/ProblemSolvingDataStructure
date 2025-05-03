@@ -9,23 +9,23 @@ namespace ProblemSolvingDataStructure
 {
     public class SwappingLinkedList
     {
-        public static void Main(string[] args)
-        {
-            ListNode l6 = new ListNode(8);
-            ListNode l5 = new ListNode(5, l6);
-            ListNode l4 = new ListNode(4, l5);
-            ListNode l3 = new ListNode(3, l4);
-            ListNode l2 = new ListNode(2, l3);
-            ListNode l1 = new ListNode(1, l2);
+        //public static void Main(string[] args)
+        //{
+        //    ListNode l6 = new ListNode(8);
+        //    ListNode l5 = new ListNode(5, l6);
+        //    ListNode l4 = new ListNode(4, l5);
+        //    ListNode l3 = new ListNode(3, l4);
+        //    ListNode l2 = new ListNode(2, l3);
+        //    ListNode l1 = new ListNode(1, l2);
 
-            ListNode n = SwappingLinkedList.SwapPairs(l1);
-            //Console.WriteLine(n); 
-            Console.ReadLine();
+        //    ListNode n = SwappingLinkedList.SwapPairs(l1);
+        //    //Console.WriteLine(n); 
+        //    Console.ReadLine();
 
-            //ArrayList list = new ArrayList();
-            //list.Add(1);
-            //list.Add("Hello");
-        }
+        //    //ArrayList list = new ArrayList();
+        //    //list.Add(1);
+        //    //list.Add("Hello");
+        //}
 
         public class ListNode
         {
