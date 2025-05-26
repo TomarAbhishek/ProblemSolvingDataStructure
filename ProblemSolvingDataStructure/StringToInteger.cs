@@ -8,14 +8,14 @@ namespace ProblemSolvingDataStructure
 {
     public class StringToInteger
     {
-        public static void Main(string[] args)
-        {
-            //Console.WriteLine(Math.Pow(2, 31));
-            int t = StringToInteger.MyAtoi("21474836460");
-            //2147483648
-            Console.WriteLine(t);
-            Console.ReadKey();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    //Console.WriteLine(Math.Pow(2, 31));
+        //    int t = StringToInteger.MyAtoi("21474836460");
+        //    //2147483648
+        //    Console.WriteLine(t);
+        //    Console.ReadKey();
+        //}
 
         public static int MyAtoi(string s)
         {
