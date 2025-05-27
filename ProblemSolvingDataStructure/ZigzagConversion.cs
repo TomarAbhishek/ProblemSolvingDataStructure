@@ -19,50 +19,75 @@ namespace ProblemSolvingDataStructure
         ///Input: s = "PAYPALISHIRING", numRows = 3
         ///Output: "PAHNAPLSIIGYIR"
 
-        //public static void Main(string[] args)
-        //{
-        //    Console.WriteLine(Convert("PAYPALISHIRING", 2));
-        //    Console.ReadLine();
-        //}
+        public static void Main(string[] args)
+        {
+            Console.WriteLine(Convert("PAYPALISHIRING", 3));
+            Console.ReadLine();
+        }
         public static string Convert(string s, int numRows)
         {
-            if (string.IsNullOrEmpty(s) || s.Length == 1 || numRows == 1)
+            //if (string.IsNullOrEmpty(s) || s.Length == 1 || numRows == 1)
+            //    return s;
+
+            //string[] str = new string[numRows];
+            //int index = 0;
+            //int strIndex = 0;
+            //bool posFlag = true;
+            //bool negFlag = false;
+
+            //while(index < s.Length)
+            //{
+            //    if (posFlag)
+            //        str[strIndex++] += s[index];
+            //    if (negFlag)
+            //        str[strIndex--] += s[index];
+            //    if(strIndex >= str.Length)
+            //    {
+            //        negFlag = true;
+            //        posFlag = false;
+            //        strIndex = strIndex - 2;
+            //    }
+            //    if (strIndex < 0)
+            //    {
+            //        posFlag = true;
+            //        negFlag = false;
+            //        strIndex = strIndex + 2;
+            //    }
+            //    index++;
+            //}
+            //string result= string.Empty;
+            //foreach(var x in str)
+            //{
+            //    result += x;
+            //}
+
+            //return result;
+            if (string.IsNullOrEmpty(s) || numRows == 1 || s.Length <= numRows)
                 return s;
 
-            string[] str = new string[numRows];
-            int index = 0;
-            int strIndex = 0;
-            bool posFlag = true;
-            bool negFlag = false;
+            var rows = new StringBuilder[numRows];
+            for (int i = 0; i < numRows; i++)
+                rows[i] = new StringBuilder();
 
-            while(index < s.Length)
-            {
-                if (posFlag)
-                    str[strIndex++] += s[index];
-                if (negFlag)
-                    str[strIndex--] += s[index];
-                if(strIndex >= str.Length)
-                {
-                    negFlag = true;
-                    posFlag = false;
-                    strIndex = strIndex - 2;
-                }
-                if (strIndex < 0)
-                {
-                    posFlag = true;
-                    negFlag = false;
-                    strIndex = strIndex + 2;
-                }
-                index++;
-            }
-            string result= string.Empty;
-            foreach(var x in str)
-            {
-                result += x;
-            }
-            
-            return result;
+            int currentRow = 0;
+            bool goingDown = false;
 
+            foreach (char c in s)
+            {
+                rows[currentRow].Append(c);
+
+                // Change direction when reaching the first or last row
+                if (currentRow == 0 || currentRow == numRows - 1)
+                    goingDown = !goingDown;
+
+                currentRow += goingDown ? 1 : -1;
+            }
+
+            var result = new StringBuilder();
+            foreach (var row in rows)
+                result.Append(row);
+
+            return result.ToString();
         }
     }
 }
